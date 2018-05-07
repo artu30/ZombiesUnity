@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68afa45a674686c4d8a3666d4b474d49, type: 3}
+  m_Name: TankZombieWave
+  m_EditorClassIdentifier: 
+  distanceBetweenZombies: 1.5
+  zombieWave:
+  - {fileID: 11400000, guid: 6e0db4baa61915348981e0fe182062ad, type: 2}
+  - {fileID: 11400000, guid: 253c9a3b55ba0574cbaf12479eaf433b, type: 2}
+  - {fileID: 11400000, guid: 253c9a3b55ba0574cbaf12479eaf433b, type: 2}
+  - {fileID: 11400000, guid: 253c9a3b55ba0574cbaf12479eaf433b, type: 2}
+  - {fileID: 11400000, guid: 253c9a3b55ba0574cbaf12479eaf433b, type: 2}
+  protectingTank: 0
+  distanceToAttackTarget: 15

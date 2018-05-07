@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 323771039818f00488595a29b52c167c, type: 3}
+  m_Name: FollowPlayerState
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 11400000, guid: ad3dc5548800e1d499b7609a7d173532, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: fff200b205333244d92805eca300bb5c, type: 2}
+    trueState: {fileID: 11400000, guid: f98d50c49c282e649a3a8e4e754d0685, type: 2}
+    falseState: {fileID: 11400000, guid: 8fdc36a40ac4baa4db60f734c364f843, type: 2}
+  - decision: {fileID: 11400000, guid: aa85bed2d0e59cb4795fcece6964bdfc, type: 2}
+    trueState: {fileID: 11400000, guid: 977636f629233cf4e8a78cced80a30f6, type: 2}
+    falseState: {fileID: 11400000, guid: 8fdc36a40ac4baa4db60f734c364f843, type: 2}
+  - decision: {fileID: 11400000, guid: 0cf21a202a569bf4c8116cfbf85e3af9, type: 2}
+    trueState: {fileID: 11400000, guid: 36127216b8823fa45a69731d5cd37f57, type: 2}
+    falseState: {fileID: 11400000, guid: 8fdc36a40ac4baa4db60f734c364f843, type: 2}

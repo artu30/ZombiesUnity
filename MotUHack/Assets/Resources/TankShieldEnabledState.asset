@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 323771039818f00488595a29b52c167c, type: 3}
+  m_Name: TankShieldEnabledState
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 11400000, guid: cc894be68905f8742830f9628fc62667, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: aa85bed2d0e59cb4795fcece6964bdfc, type: 2}
+    trueState: {fileID: 11400000, guid: 8fdc36a40ac4baa4db60f734c364f843, type: 2}
+    falseState: {fileID: 11400000, guid: 04be3d983b771424ead46719852beff1, type: 2}

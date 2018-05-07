@@ -1,0 +1,16 @@
+language: objective-c
+osx_image: xcode61
+rvm:
+- 2.1.2
+install:
+- "./Scripts/install.sh"
+script:
+- "./Scripts/build.sh"
+deploy:
+  provider: releases
+  api_key:
+    secure: M/6i47za49wwzoUSya8/GmoaZhNK14ZGZxes32IAtJwEPgeLeDZknko+2lx9PkJwXJAE8tSWBweOyHRNw2gaQfP1HPO0zoNtXt2+A5VFLF7qsh7STPemseArRI7oqbwXFTRzRA/2tZJfByn1J2q2Ale2F6iocCgfqk2sfd0gxqgCE+KiZaT4XfE2K1PxqUtz5GF5mFfIoUitkAaI4yF4kfXefdViOc/gSbMLyOU3RxiEFlem3UKTiL/Mjo6zKzWTh1hwXaZaMuBethfQmiLEr6+D2GQvJFGeZUQLJs4z6nqCbpx1iRHvaIzTX+0JZ25bkvZAz51yVLoPa/qq7s75Uzw56kT5lpASc57BE10Z0ApUrRChMMbly6Rn2NP3B5IaHRHweifSqmUfKhQtVzhsHV9hZV7OAv85UrEelM6AHWQg2+krJOg6ewFjFuR/YnHn7Uosh4RBywU8vKNyOHnm3zWY4cIngaVUx2tGpqXzMWDb1YZfJ6gqjdO6sSynQFi53Byw5DAx0yt46j9cOMBjfLeonWIBpPmHGuZMdzZbuIOujdgXSCWC1r20PQRvWE4hYd+qkC0A/vl3s8uGPJMCOKPeo7qfQoi+qvc3vqPXWbgCCYozQfFELCk4IREhcX+55hJ1eOPgbxXC6uo38GSLbC5/TRgfWpkQyCPD/MifAfY=
+  file: 'Build/windows/motUHack.exe'
+  skip_cleanup: true
+  on:
+    tags: true

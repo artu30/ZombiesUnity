@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3ee1c557ef2ddc4baa68263bf6ffedb, type: 3}
+  m_Name: SlowZombie_01
+  m_EditorClassIdentifier: 
+  zombieType: 0
+  life: 40
+  movementSpeed: 2
+  stamina: 5
+  damage: 3
+  attackRange: 1
+  attackCadence: 1.2
+  fastRun: 0
+  prefab: {fileID: 1717235428450850, guid: 28ed289dc366fab45a31bf182ca0e169, type: 2}
+  abilities: []
+  tag: slowZombie

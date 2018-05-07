@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e72ee555f6701844d926a626a026539e, type: 3}
+  m_Name: tank_zombie
+  m_EditorClassIdentifier: 
+  zombieType: 1
+  life: 100
+  movementSpeed: 3
+  stamina: 50
+  mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+  abilities:
+  - {fileID: 11400000, guid: 2803fc548a0ed7642b998259fe7f2e0c, type: 2}
+  tag: tankZombie
+  maxProtectionPositions: 10
+  distanceBetweenPositions: 5
+  generatedPositions:
+  - {x: 29.440077, y: 1.1, z: -163.71321}
+  - {x: 19.440077, y: 1.1, z: -163.71321}
+  - {x: 29.440077, y: 1.1, z: -165.71321}
+  - {x: 26.940077, y: 1.1, z: -165.71321}
+  - {x: 21.940077, y: 1.1, z: -165.71321}
+  - {x: 19.440077, y: 1.1, z: -165.71321}
+  - {x: 29.440077, y: 1.1, z: -167.71321}
+  - {x: 26.940077, y: 1.1, z: -167.71321}
+  - {x: 21.940077, y: 1.1, z: -167.71321}
+  - {x: 19.440077, y: 1.1, z: -167.71321}
